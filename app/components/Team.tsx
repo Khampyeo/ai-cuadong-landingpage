@@ -17,19 +17,15 @@ const Team = () => {
       linkedin: "",
     },
     {
-      name: "Hung Dang Hoang Kieu",
+      name: "Duy Dang",
       role: "Full Stack Engineer / Infrastructure System Engineer",
       image: "/bob.jpg",
-      domain: [
-        "DevOps",
-        "System Networking",
-        "Cloud Technologies",
-      ],
+      domain: ["DevOps", "System Networking", "Cloud Technologies"],
       linkedin: "",
     },
     {
       name: "Nghia Nguyen",
-      role: "AI Engineer",
+      role: "AI/ML Specialist",
       image: "/charlie.jpg",
       domain: ["AI/ML/DL Model Development", "Data Engineering"],
       linkedin: "",
@@ -43,16 +39,35 @@ const Team = () => {
     },
     {
       name: "Nam Pham",
-      role: "Project Manager",
+      role: "AI Engineer",
       image: "/charlie.jpg",
-      domain: ["Natural Language Processing", "Machine Learning","Data Analysis"],
+      domain: [
+        "Natural Language Processing",
+        "Machine Learning",
+        "Data Analysis",
+      ],
+      linkedin: "",
+    },
+    {
+      name: "Hoang Minh Tran",
+      role: "AI Engineer",
+      image: "/charlie.jpg",
+      domain: [
+        "Natural Language Processing",
+        "Machine Learning",
+        "Data Analysis",
+      ],
       linkedin: "",
     },
     {
       name: "Kiet Nguyen",
       role: "Fullstack Engineer",
       image: "/charlie.jpg",
-      domain: ["Frontend Development", "Backend Development","Database Management"],
+      domain: [
+        "Frontend Development",
+        "Backend Development",
+        "Database Management",
+      ],
       linkedin: "",
     },
   ];

@@ -7,14 +7,14 @@ const reviews = [
     name: "Pavel",
     job: "Business Solution Director Infologistics Global",
     review:
-      "The AI Avatar Assistant is incredibly responsive and understands my requirements perfectly. It's like talking to a real person!",
+      "CORE-XTRACT automates document processing with advanced ML and DL, ensuring accuracy and reliability across industries. It handles large volumes well, though initial setup can be challenging. Delivers great results once configured!",
     rating: 5,
   },
   {
     name: "Florian",
     job: "CTO Digi-Texx Vietnam",
     review:
-      "I used the AI assistant for my e-commerce platform, and it significantly improved customer satisfaction with real-time support.",
+      "KEXEntrance is a solid RPA foundation, integrating Generative AI and LLMs to handle complex tasks and scale automation. It’s great for building future solutions, though user experience could be smoother. A strong choice for advancing automation efforts!",
     rating: 4,
   },
   {

@@ -99,10 +99,10 @@ const CoreTechHighLight = () => {
                         </ul>
                       </div>
                       <div className="flex gap-4">
-                        <Button className="font-semibold">Try Live Demo</Button>
+                        {/* <Button className="font-semibold">Try Live Demo</Button>
                         <Button variant={"outline"} className="font-medium">
                           View Technical Specs
-                        </Button>
+                        </Button> */}
                       </div>
                     </div>
                     <div
