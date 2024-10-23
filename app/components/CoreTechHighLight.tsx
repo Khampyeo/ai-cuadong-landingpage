@@ -14,7 +14,7 @@ const techs = [
     name: "AI Avatar Assistant Demo",
     title: "Experience the Technology",
     description:
-      "Experience our real-time AI Avatar assistant providing instant, natural communication with tourists:",
+      "This technology enables real-time streaming of AI-driven avatars, providing life-like interactions in virtual environments. These avatars can be used in customer service, virtual assistants, and entertainment, providing immersive experiences that feel natural and responsive.",
     features: [
       "Real-time facial expressions and emotions",
       "Natural voice synthesis in multiple languages",
@@ -35,7 +35,7 @@ const techs = [
     name: "KEXEntrance Platform",
     title: "",
     description:
-      "KEXEntrance, developed independently since 2022, is a foundational platform for Robotic Process Automation (RPA). This platform is designed to integrate Generative AI (GenAI) and Large Language Models (LLM), allowing organizations to scale their automation efforts while handling complex tasks that require cognitive understanding. It acts as a springboard for building future automation solutions.",
+      "eKXntrance, developed independently since 2022, is a foundational platform for Robotic Process Automation (RPA). This platform is designed to integrate Generative AI (GenAI) and Large Language Models (LLM), allowing organizations to scale their automation efforts while handling complex tasks that require cognitive understanding. It acts as a springboard for building future automation solutions.",
     features: [],
     img: "/avi.jpg",
   },
