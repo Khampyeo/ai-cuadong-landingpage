@@ -1,4 +1,4 @@
-"use client"
+"use client";
 import { Card, CardTitle } from "@/components/ui/card";
 import {
   Carousel,
@@ -21,7 +21,7 @@ const techs = [
       "Contextual understanding of tourist needs",
       "Seamless integration with local services",
     ],
-    img: "/core-extract.jpg",
+    img: "/ai-avatar.jpg",
   },
   {
     name: "CORE-XTRACT AI Platform",
@@ -61,6 +61,8 @@ const CoreTechHighLight = () => {
           plugins={[
             Autoplay({
               delay: 5000,
+              stopOnMouseEnter: true,
+              stopOnInteraction: false,
             }),
           ]}
           opts={{
@@ -75,12 +77,22 @@ const CoreTechHighLight = () => {
 
           <CarouselContent>
             {techs.map((tech, index) => (
-              <CarouselItem key={index} className="w-full">
+              <CarouselItem
+                key={index}
+                className="w-full md:w-1/2 md:basis-1/2"
+              >
                 <Card key={index} className="p-6 text-left">
                   <div className="flex gap-4">
-                    <div className="flex flex-1 flex-col gap-6">
+                    <div>
+                      <img
+                        alt=""
+                        src={tech.img}
+                        className="w-24 md:w-32 rounded-lg"
+                      />
+                    </div>
+                    <div className="flex flex-1 flex-col gap-4">
                       <div className="w-full">
-                        <div className="flex items-center gap-4 mb-4">
+                        <div className="flex items-center gap-4 ">
                           <CardTitle className="text-2xl">
                             {tech.name}
                           </CardTitle>
@@ -89,7 +101,7 @@ const CoreTechHighLight = () => {
                         <p className="text-gray-600 mb-4">{tech.description}</p>
                       </div>
                       <div>
-                        <ul className="list-disc text-left pl-4 mb-4">
+                        <ul className="list-disc text-left pl-4">
                           {tech.features.map((item, i) => (
                             <li key={i} className="mb-2">
                               {item}
@@ -103,11 +115,6 @@ const CoreTechHighLight = () => {
                           View Technical Specs
                         </Button> */}
                       </div>
-                    </div>
-                    <div
-                      className="flex-1 bg-black overflow-hidden rounded-lg"
-                    >
-                      <img src={tech.img} alt="" className="w-full"/>
                     </div>
                   </div>
                 </Card>
