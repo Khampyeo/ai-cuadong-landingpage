@@ -7,7 +7,6 @@ import {
   CarouselNext,
   CarouselPrevious,
 } from "@/components/ui/carousel";
-import clsx from "clsx";
 import Autoplay from "embla-carousel-autoplay";
 
 const techs = [
