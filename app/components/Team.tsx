@@ -13,7 +13,7 @@ const Team = () => {
       name: "Phuc Nguyen",
       role: "Generative AI Product Lead",
       image: "/phuc.jpeg",
-      domain: ["ESG", "AI Product Management", "Supply Chain"],
+      domain: ["Project Management", "AI Product Management"],
       linkedin: "",
     },
     {
@@ -50,7 +50,7 @@ const Team = () => {
     },
     {
       name: "Hoang Minh Tran",
-      role: "AI Engineer",
+      role: "AI Researcher",
       image: "/hoang.jpeg",
       domain: [
         "Natural Language Processing",
@@ -67,6 +67,18 @@ const Team = () => {
         "Frontend Development",
         "Backend Development",
         "Database Management",
+      ],
+      linkedin: "",
+    },
+    {
+      name: "Loc Nguyen",
+      role: "Data Engineer",
+      image: "/loc.jpeg",
+      domain: [
+        "Data Architecrure Design",
+        "Data Integration",
+        "Database Management",
+        "Backend Development",
       ],
       linkedin: "",
     },

@@ -7,12 +7,12 @@ import {
   CarouselNext,
   CarouselPrevious,
 } from "@/components/ui/carousel";
+import clsx from "clsx";
 import Autoplay from "embla-carousel-autoplay";
 
 const techs = [
   {
     name: "Real-time AI Avatar Streaming",
-    title: "Experience the Technology",
     description:
       "This technology enables real-time streaming of AI-driven avatars, providing life-like interactions in virtual environments. These avatars can be used in customer service, virtual assistants, and entertainment, providing immersive experiences that feel natural and responsive.",
     features: [],
@@ -20,7 +20,6 @@ const techs = [
   },
   {
     name: "CORE-XTRACT AI Platform",
-    title: "",
     description:
       "CORE-XTRACT leverages cutting-edge Machine Learning (ML) and Deep Learning (DL) algorithms to automate document processing. By converting human-centric tasks like data extraction, classification, and validation into automated processes, it ensures high levels of accuracy with human-level quality control. The platform is highly adaptable to various industries that require large-scale document handling, such as finance, healthcare, and logistics.",
     features: [],
@@ -28,7 +27,6 @@ const techs = [
   },
   {
     name: "EXEntrance Platform",
-    title: "",
     description:
       "eKXntrance, developed independently since 2022, is a foundational platform for Robotic Process Automation (RPA). This platform is designed to integrate Generative AI (GenAI) and Large Language Models (LLM), allowing organizations to scale their automation efforts while handling complex tasks that require cognitive understanding. It acts as a springboard for building future automation solutions.",
     features: [],
@@ -37,7 +35,6 @@ const techs = [
 
   {
     name: "POLYAI-NLP Retrieval CCTV",
-    title: "",
     description:
       "POLYAI-NLP is an advanced Natural Language Processing (NLP) system that enhances surveillance by enabling intelligent CCTV retrieval. The system allows users to describe events in natural language, and the AI retrieves the relevant footage from video databases. This dramatically improves search efficiency in security systems and other surveillance-heavy applications.",
     features: [],
@@ -78,21 +75,18 @@ const CoreTechHighLight = () => {
               >
                 <Card key={index} className="p-6 text-left">
                   <div className="flex gap-4">
-                    <div>
-                      <img
-                        alt=""
-                        src={tech.img}
-                        className="w-24 md:w-32 rounded-lg"
-                      />
-                    </div>
                     <div className="flex flex-1 flex-col gap-4">
                       <div className="w-full">
-                        <div className="flex items-center gap-4 ">
+                        <div className="flex items-center gap-4 mb-4">
+                          <img
+                            alt=""
+                            src={tech.img}
+                            className="w-20 rounded-lg shrink-0"
+                          />
                           <CardTitle className="text-2xl">
                             {tech.name}
                           </CardTitle>
                         </div>
-                        <p className="mb-4 font-semibold">{tech.title}</p>
                         <p className="text-gray-600 mb-4">{tech.description}</p>
                       </div>
                       <div>

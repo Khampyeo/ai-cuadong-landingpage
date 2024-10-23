@@ -1,4 +1,4 @@
-  "use client";
+"use client";
 import { Card, CardTitle } from "@/components/ui/card";
 import {
   Carousel,
@@ -57,8 +57,9 @@ const caseStudies = [
     title: "Sales Operations Automation",
     icon: <BarChart className="w-12 h-12 text-orange-500" />,
     challenge:
-      "A B2B company struggled with complex sales bonus calculations and commission processing, causing delays and disputes.",
-    solution: "Created an automated sales operations platform:",
+      "A B2B Electric company in Vietnam struggled with complex sales bonus calculations and commission processing, causing delays and disputes.",
+    solution:
+      "Integration with CRM (Salesforce) and payment systems (Oracle JDE):",
     implementation: [
       "Automated bonus calculation engine",
       "Real-time performance tracking",
