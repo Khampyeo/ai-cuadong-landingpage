@@ -11,16 +11,11 @@ import Autoplay from "embla-carousel-autoplay";
 
 const techs = [
   {
-    name: "AI Avatar Assistant Demo",
+    name: "Real-time AI Avatar Streaming",
     title: "Experience the Technology",
     description:
       "This technology enables real-time streaming of AI-driven avatars, providing life-like interactions in virtual environments. These avatars can be used in customer service, virtual assistants, and entertainment, providing immersive experiences that feel natural and responsive.",
-    features: [
-      "Real-time facial expressions and emotions",
-      "Natural voice synthesis in multiple languages",
-      "Contextual understanding of tourist needs",
-      "Seamless integration with local services",
-    ],
+    features: [],
     img: "/ai-avatar.jpg",
   },
   {
