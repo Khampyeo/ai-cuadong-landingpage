@@ -32,7 +32,7 @@ const techs = [
     img: "/core-extract.jpg",
   },
   {
-    name: "KEXEntrance Platform",
+    name: "EXEntrance Platform",
     title: "",
     description:
       "eKXntrance, developed independently since 2022, is a foundational platform for Robotic Process Automation (RPA). This platform is designed to integrate Generative AI (GenAI) and Large Language Models (LLM), allowing organizations to scale their automation efforts while handling complex tasks that require cognitive understanding. It acts as a springboard for building future automation solutions.",
