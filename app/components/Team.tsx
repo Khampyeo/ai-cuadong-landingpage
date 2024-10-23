@@ -5,42 +5,42 @@ import {
   CardFooter,
   CardHeader,
 } from "@/components/ui/card";
-import LinkedinIcon from "@/public/linkedin-svgrepo-com.svg";
+// import LinkedinIcon from "@/public/linkedin-svgrepo-com.svg";
 const Team = () => {
   // Sample data for team members
   const members = [
     {
       name: "Phuc Nguyen",
       role: "Generative AI Product Lead",
-      image: "/alice.jpg",
+      image: "/phuc.jpeg",
       domain: ["ESG", "AI Product Management", "Supply Chain"],
       linkedin: "",
     },
     {
       name: "Duy Dang",
       role: "Full Stack Engineer / Infrastructure System Engineer",
-      image: "/bob.jpg",
+      image: "/duy.jpeg",
       domain: ["DevOps", "System Networking", "Cloud Technologies"],
       linkedin: "",
     },
     {
       name: "Nghia Nguyen",
       role: "AI/ML Specialist",
-      image: "/charlie.jpg",
+      image: "/nghia.jpeg",
       domain: ["AI/ML/DL Model Development", "Data Engineering"],
       linkedin: "",
     },
     {
       name: "Luan Tran",
       role: "AI Engineer",
-      image: "/charlie.jpg",
+      image: "/luan.jpeg",
       domain: ["Machine Learning", "Deep Learning", "Computer Vision"],
       linkedin: "",
     },
     {
       name: "Nam Pham",
       role: "AI Engineer",
-      image: "/charlie.jpg",
+      image: "/nam.jpeg",
       domain: [
         "Natural Language Processing",
         "Machine Learning",
@@ -51,7 +51,7 @@ const Team = () => {
     {
       name: "Hoang Minh Tran",
       role: "AI Engineer",
-      image: "/charlie.jpg",
+      image: "/hoang.jpeg",
       domain: [
         "Natural Language Processing",
         "Machine Learning",
@@ -62,7 +62,7 @@ const Team = () => {
     {
       name: "Kiet Nguyen",
       role: "Fullstack Engineer",
-      image: "/charlie.jpg",
+      image: "/kiet.jpeg",
       domain: [
         "Frontend Development",
         "Backend Development",
@@ -80,7 +80,13 @@ const Team = () => {
           {members.map((member) => (
             <Card key={member.name} className="p-3">
               <CardHeader>
-                <div className="w-32 h-32 mx-auto bg-black rounded-full"></div>
+                <div className="">
+                  <img
+                    src={member.image}
+                    alt=""
+                    className="w-32 h-32 mx-auto bg-black rounded-full brightness-75"
+                  />
+                </div>
               </CardHeader>
               <CardContent>
                 <h3 className="text-xl font-semibold">{member.name}</h3>
@@ -93,9 +99,7 @@ const Team = () => {
                   ))}
                 </div>
               </CardContent>
-              <CardFooter>
-                <LinkedinIcon />
-              </CardFooter>
+              <CardFooter>{/* <LinkedinIcon /> */}</CardFooter>
             </Card>
           ))}
         </div>
