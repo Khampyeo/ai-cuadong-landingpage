@@ -9,18 +9,17 @@ import Review from "./components/Review";
 import Team from "./components/Team";
 import TrustedByCompanies from "./components/TrustedByCompanies";
 
-
 const HomePage = () => {
   return (
     <div>
       <Header />
       <Hero />
       <Features />
-      <CoreTechHighlight/>
+      <CoreTechHighlight />
       <Team />
-      <CaseStudy/>
-      <Review/>
-      <TrustedByCompanies/>
+      <CaseStudy />
+      {/* <Review /> */}
+      {/* <TrustedByCompanies /> */}
       <Contact />
       <Footer />
     </div>
