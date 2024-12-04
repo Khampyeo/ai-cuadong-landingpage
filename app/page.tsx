@@ -5,9 +5,9 @@ import Features from "./components/Features";
 import Footer from "./components/Footer";
 import Header from "./components/Header";
 import Hero from "./components/Hero";
-import Review from "./components/Review";
+//import Review from "./components/Review";
 import Team from "./components/Team";
-import TrustedByCompanies from "./components/TrustedByCompanies";
+//import TrustedByCompanies from "./components/TrustedByCompanies";
 
 const HomePage = () => {
   return (
